@@ -1,0 +1,56 @@
+*{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0; padding: 0
+}
+body {
+  overflow: hidden;
+}
+.map{
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.location-icon {
+  font-size: 2rem;
+  color: red;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.location-icon:hover{
+  color: rgb(243, 141, 8);
+}
+
+.location-info {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  width: 400px;
+  min-height: 200px;
+  padding: 20px;
+  background-color: rgba(0,0, 0, .5);
+  font-size: 18px;
+  border-radius: 10px;
+  color: white;
+}
+
+.location-info  ul{
+  list-style-type: none;
+  padding: 0;
+}
+
+.location-info li{
+  padding: 5px 0;
+}
+
+.header{
+  background-color: #323232;
+  color: #ffffff;
+  padding: .5rem;
+}
+
+.header h1{
+  font-size: 10;
+  text-align: center;
+}
